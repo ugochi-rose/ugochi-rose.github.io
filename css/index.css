@@ -1,0 +1,177 @@
+nav.navbar{
+    background-color: rgba(255, 255, 255, 0.98)!important;
+    box-shadow: 0 0 20px rgb(41 41 41 / 15%);
+    z-index: 999;
+}
+a.navbar-brand{
+    font-family: 'DM Serif Text', serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: #353031!important;
+}
+a.nav-link{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #353031!important;
+    font-size: 12px;
+}
+
+/* header-background */
+.header-background{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)),url('../img/food14.jpg');
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+}
+.btn-1:hover{
+    letter-spacing: 2px;
+    transition: .4s;
+}
+.caption-backimg{
+    margin-top: 60px;
+}
+.caption-backimg h1{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 6rem;
+}
+.caption-backimg p{
+    font-weight: 700;
+    font-size: 11px;
+    font-family: serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+/* reverse */
+.reserve{
+    background-image: linear-gradient(rgba(70, 70, 70, 0.3), rgba(0,0,0,0.7)),url('../img/food2.jpg');
+    height: 85vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.caption-backimg-g h1{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.btn button{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    background-color: #a68b7c;
+    border-radius: 12px;
+    border: none;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.btn a:hover{
+    color: white;
+}
+/* specials */
+.card-hover-down:hover{
+    margin-top: 20px;
+    transition: .4s;
+}
+.card-hover:hover{
+    margin-top: -20px;
+    transition: .4s;
+}
+.card-shadow{
+    box-shadow: 5px 20px 20px #a68b7c!important;
+}
+/* review */
+.review{
+    background-image: linear-gradient(rgba(92, 91, 91, 0.6), rgba(92, 91, 91, 0.6)),url('../img/food3.jpg');
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+}
+/* reservations */
+.reservations{
+    background-color: rgb(252, 252, 252);
+}
+label{
+    font-weight: 400;
+    color:#353031;
+    font-size: smaller;
+}
+.form-control{
+    background-color: rgb(252, 252, 252)!important;
+    border-color: rgb(235, 234, 234)!important;
+}
+form{
+    background-color: white;
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 10px;
+}
+.form.form-control{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    background-color: #a68b7c;
+    border-radius: 12px;
+    border: none;
+}
+
+/* MENU */
+.h1-text{
+    font-family: 'Oooh Baby', cursive;
+    color: #a68b7c;
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+
+
+/* animation */
+.fade-in-text {
+    animation: fadeIn linear 6s;
+    -webkit-animation: fadeIn linear 6s;
+    -moz-animation: fadeIn linear 6s;
+    -o-animation: fadeIn linear 6s;
+    -ms-animation: fadeIn linear 6s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /* end animation */
